@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F11FCA67-5D60-49C7-AFE6-F42524A15B3F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Trabajo1</RootNamespace>
+    <AssemblyName>Trabajo1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaArchivo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaArchivo.Designer.cs">
+      <DependentUpon>FormaArchivo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaCalc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaCalc.Designer.cs">
+      <DependentUpon>FormaCalc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaConversion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaConversion.Designer.cs">
+      <DependentUpon>FormaConversion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaCorazon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaCorazon.Designer.cs">
+      <DependentUpon>FormaCorazon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaCreador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaCreador.Designer.cs">
+      <DependentUpon>FormaCreador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaDificultad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaDificultad.Designer.cs">
+      <DependentUpon>FormaDificultad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaF.Designer.cs">
+      <DependentUpon>FormaF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaFormula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaFormula.Designer.cs">
+      <DependentUpon>FormaFormula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaHelp.Designer.cs">
+      <DependentUpon>FormaHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaHome.Designer.cs">
+      <DependentUpon>FormaHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaLink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaLink.Designer.cs">
+      <DependentUpon>FormaLink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaMate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaMate.Designer.cs">
+      <DependentUpon>FormaMate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaMateDificil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaMateDificil.Designer.cs">
+      <DependentUpon>FormaMateDificil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaMateMedio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaMateMedio.Designer.cs">
+      <DependentUpon>FormaMateMedio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaRuleta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaRuleta.Designer.cs">
+      <DependentUpon>FormaRuleta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaSalario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaSalario.Designer.cs">
+      <DependentUpon>FormaSalario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaTraingulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaTraingulo.Designer.cs">
+      <DependentUpon>FormaTraingulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaVisor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaVisor.Designer.cs">
+      <DependentUpon>FormaVisor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaCalc.resx">
+      <DependentUpon>FormaCalc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaConversion.resx">
+      <DependentUpon>FormaConversion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaCorazon.resx">
+      <DependentUpon>FormaCorazon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaCreador.resx">
+      <DependentUpon>FormaCreador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaDificultad.resx">
+      <DependentUpon>FormaDificultad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaFormula.resx">
+      <DependentUpon>FormaFormula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaHome.resx">
+      <DependentUpon>FormaHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaLink.resx">
+      <DependentUpon>FormaLink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaMate.resx">
+      <DependentUpon>FormaMate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaMateDificil.resx">
+      <DependentUpon>FormaMateDificil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaMateMedio.resx">
+      <DependentUpon>FormaMateMedio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaRuleta.resx">
+      <DependentUpon>FormaRuleta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaSalario.resx">
+      <DependentUpon>FormaSalario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaTraingulo.resx">
+      <DependentUpon>FormaTraingulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaVisor.resx">
+      <DependentUpon>FormaVisor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descargar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descargar.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\96228838_9698598137.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-536355664-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descargar %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descargar %284%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descargar %283%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descargar %282%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2b0f2-formula.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descargar %285%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2b0f2-formula-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\+.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descargar %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descargar %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\collab___cielo_tierra_e_infierno_by_martu_nyan_d9tfnuh-fullview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descargar %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\91026cba9c6abaa7b2a1d1c474bfb688.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descargar %283%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\91026cba9c6abaa7b2a1d1c474bfb6881.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1328304.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\44742.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
