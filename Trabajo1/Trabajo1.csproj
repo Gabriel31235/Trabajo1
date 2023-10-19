@@ -100,6 +100,12 @@
     <Compile Include="Formas\FormaFormula.Designer.cs">
       <DependentUpon>FormaFormula.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formas\FormaGato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaGato.Designer.cs">
+      <DependentUpon>FormaGato.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formas\FormaHelp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,12 @@
     </Compile>
     <Compile Include="Formas\FormaHome.Designer.cs">
       <DependentUpon>FormaHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaInstrucciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaInstrucciones.Designer.cs">
+      <DependentUpon>FormaInstrucciones.cs</DependentUpon>
     </Compile>
     <Compile Include="Formas\FormaLink.cs">
       <SubType>Form</SubType>
@@ -135,6 +147,12 @@
     </Compile>
     <Compile Include="Formas\FormaMateMedio.Designer.cs">
       <DependentUpon>FormaMateMedio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaMemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaMemo.Designer.cs">
+      <DependentUpon>FormaMemo.cs</DependentUpon>
     </Compile>
     <Compile Include="Formas\FormaRuleta.cs">
       <SubType>Form</SubType>
@@ -183,8 +201,14 @@
     <EmbeddedResource Include="Formas\FormaFormula.resx">
       <DependentUpon>FormaFormula.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaGato.resx">
+      <DependentUpon>FormaGato.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formas\FormaHome.resx">
       <DependentUpon>FormaHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaInstrucciones.resx">
+      <DependentUpon>FormaInstrucciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formas\FormaLink.resx">
       <DependentUpon>FormaLink.cs</DependentUpon>
@@ -197,6 +221,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formas\FormaMateMedio.resx">
       <DependentUpon>FormaMateMedio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaMemo.resx">
+      <DependentUpon>FormaMemo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formas\FormaRuleta.resx">
       <DependentUpon>FormaRuleta.cs</DependentUpon>
@@ -212,14 +239,8 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -301,6 +322,66 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\44742.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descargar %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descargar %286%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descargar %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descargar %287%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\580b585b2edbce24c47b270d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\580b585b2edbce24c47b270a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descargar %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descargar %288%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\580b585b2edbce24c47b2710.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\580b585b2edbce24c47b270d1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\580b585b2edbce24c47b270a1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5f48f1ed68ecc70004ae6f70.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\580b585b2edbce24c47b270d2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\580b585b2edbce24c47b270d3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sol1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6207a0fe26ab99000460a356.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6207a0fe26ab99000460a3561.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6207a0fe26ab99000460a3562.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descargar %282%291.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

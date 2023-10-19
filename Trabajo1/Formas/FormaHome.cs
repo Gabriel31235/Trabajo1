@@ -94,5 +94,18 @@ namespace Trabajo1.Formas
             FormaDificultad forma = new FormaDificultad();
             forma.Show();
         }
+
+        private void memoramaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormaInstrucciones forma = new FormaInstrucciones();
+            forma.Show();
+
+        }
+
+        private void gatoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormaGato forma = new FormaGato();
+            forma.Show();
+        }
     }
 }

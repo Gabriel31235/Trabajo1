@@ -44,6 +44,8 @@ namespace Trabajo1.Formas
             this.ejerciciosParcial2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.visorDeImagenesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.matematicasToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.memoramaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gatoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -151,7 +153,9 @@ namespace Trabajo1.Formas
             // 
             this.ejerciciosParcial2ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.visorDeImagenesToolStripMenuItem1,
-            this.matematicasToolStripMenuItem1});
+            this.matematicasToolStripMenuItem1,
+            this.memoramaToolStripMenuItem,
+            this.gatoToolStripMenuItem});
             this.ejerciciosParcial2ToolStripMenuItem.Name = "ejerciciosParcial2ToolStripMenuItem";
             this.ejerciciosParcial2ToolStripMenuItem.Size = new System.Drawing.Size(130, 23);
             this.ejerciciosParcial2ToolStripMenuItem.Text = "Ejercicios Parcial 2";
@@ -169,6 +173,20 @@ namespace Trabajo1.Formas
             this.matematicasToolStripMenuItem1.Size = new System.Drawing.Size(198, 24);
             this.matematicasToolStripMenuItem1.Text = "Matematicas";
             this.matematicasToolStripMenuItem1.Click += new System.EventHandler(this.matematicasToolStripMenuItem1_Click);
+            // 
+            // memoramaToolStripMenuItem
+            // 
+            this.memoramaToolStripMenuItem.Name = "memoramaToolStripMenuItem";
+            this.memoramaToolStripMenuItem.Size = new System.Drawing.Size(198, 24);
+            this.memoramaToolStripMenuItem.Text = "Memorama";
+            this.memoramaToolStripMenuItem.Click += new System.EventHandler(this.memoramaToolStripMenuItem_Click);
+            // 
+            // gatoToolStripMenuItem
+            // 
+            this.gatoToolStripMenuItem.Name = "gatoToolStripMenuItem";
+            this.gatoToolStripMenuItem.Size = new System.Drawing.Size(198, 24);
+            this.gatoToolStripMenuItem.Text = "Gato";
+            this.gatoToolStripMenuItem.Click += new System.EventHandler(this.gatoToolStripMenuItem_Click);
             // 
             // FormaHome
             // 
@@ -205,5 +223,7 @@ namespace Trabajo1.Formas
         private System.Windows.Forms.ToolStripMenuItem ejerciciosParcial2ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem visorDeImagenesToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem matematicasToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem memoramaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem gatoToolStripMenuItem;
     }
 }
