@@ -23,7 +23,7 @@ namespace Trabajo1.Formas
         private void button1_Click(object sender, EventArgs e)
         {
             try
-            { 
+            {
                 if
                 (!double.TryParse(textBox1.Text, out double Base) || !double.TryParse(textBox2.Text, out double Altura))
                 {

@@ -118,7 +118,7 @@ namespace Trabajo1.Formas
 
         private void timer1_Tick(object sender, EventArgs e)
         { }
-    
+
 
 
         private void answer_Enter(object sender, EventArgs e)

@@ -82,6 +82,12 @@
     <Compile Include="Formas\FormaCreador.Designer.cs">
       <DependentUpon>FormaCreador.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formas\FormaCreator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaCreator.Designer.cs">
+      <DependentUpon>FormaCreator.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formas\FormaDificultad.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +112,12 @@
     <Compile Include="Formas\FormaGato.Designer.cs">
       <DependentUpon>FormaGato.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formas\FormaGatolink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaGatolink.Designer.cs">
+      <DependentUpon>FormaGatolink.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formas\FormaHelp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,6 +135,12 @@
     </Compile>
     <Compile Include="Formas\FormaInstrucciones.Designer.cs">
       <DependentUpon>FormaInstrucciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaInstruccionesGato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaInstruccionesGato.Designer.cs">
+      <DependentUpon>FormaInstruccionesGato.cs</DependentUpon>
     </Compile>
     <Compile Include="Formas\FormaLink.cs">
       <SubType>Form</SubType>
@@ -195,6 +213,9 @@
     <EmbeddedResource Include="Formas\FormaCreador.resx">
       <DependentUpon>FormaCreador.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaCreator.resx">
+      <DependentUpon>FormaCreator.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formas\FormaDificultad.resx">
       <DependentUpon>FormaDificultad.cs</DependentUpon>
     </EmbeddedResource>
@@ -204,11 +225,17 @@
     <EmbeddedResource Include="Formas\FormaGato.resx">
       <DependentUpon>FormaGato.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaGatolink.resx">
+      <DependentUpon>FormaGatolink.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formas\FormaHome.resx">
       <DependentUpon>FormaHome.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formas\FormaInstrucciones.resx">
       <DependentUpon>FormaInstrucciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaInstruccionesGato.resx">
+      <DependentUpon>FormaInstruccionesGato.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formas\FormaLink.resx">
       <DependentUpon>FormaLink.cs</DependentUpon>
@@ -240,11 +267,18 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -351,12 +385,6 @@
     <None Include="Resources\580b585b2edbce24c47b2710.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\580b585b2edbce24c47b270d1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\580b585b2edbce24c47b270a1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\5f48f1ed68ecc70004ae6f70.png" />
   </ItemGroup>
   <ItemGroup>
@@ -382,6 +410,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\descargar %282%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teoria-del-big-bounce-ilustracion-t8074n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\channels4_profile.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descargar %289%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elizabeth-lies-YbgPWfWlvkE-unsplash.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -93,7 +93,7 @@ namespace Trabajo1.Formas
         }
 
 
-    private void startButton_Click(object sender, EventArgs e)
+        private void startButton_Click(object sender, EventArgs e)
         {
             StartTheQuiz();
             startButton.Enabled = false;

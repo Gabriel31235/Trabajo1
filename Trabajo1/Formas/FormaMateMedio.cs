@@ -1,18 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Trabajo1.Formas
 {
     public partial class FormaMateMedio : Form
     {
-           
+
 
         // Create a Random object called randomizer 
         // to generate random numbers.
@@ -122,7 +115,7 @@ namespace Trabajo1.Formas
             {
                 if (CheckTheAnswer())
                 {
-                     // If CheckTheAnswer() returns true, then the user 
+                    // If CheckTheAnswer() returns true, then the user 
                     // got the answer right. Stop the timer  
                     // and show a MessageBox.
                     timer1.Stop();
@@ -153,21 +146,21 @@ namespace Trabajo1.Formas
                     startButton.Enabled = true;
                 }
             }
-        
+
         }
 
         private void answer_Enter(object sender, EventArgs e)
         {
-            
-                // Select the whole answer in the NumericUpDown control.
-                NumericUpDown answerBox = sender as NumericUpDown;
 
-                if (answerBox != null)
-                {
-                    int lengthOfAnswer = answerBox.Value.ToString().Length;
-                    answerBox.Select(0, lengthOfAnswer);
-                }
-            
+            // Select the whole answer in the NumericUpDown control.
+            NumericUpDown answerBox = sender as NumericUpDown;
+
+            if (answerBox != null)
+            {
+                int lengthOfAnswer = answerBox.Value.ToString().Length;
+                answerBox.Select(0, lengthOfAnswer);
+            }
+
         }
 
         private void button2_Click(object sender, EventArgs e)

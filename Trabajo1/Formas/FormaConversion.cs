@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Trabajo1.Formas
@@ -26,7 +19,7 @@ namespace Trabajo1.Formas
                 if (pesos >= 0)
                 {
                     double dolares = pesos * TipoCambioDolar / 2;
-                    double euros = pesos * TipoCambioEuro / 2 ;
+                    double euros = pesos * TipoCambioEuro / 2;
 
                     textBox2.Text = $"Dólares: {dolares}";
                     textBox3.Text = $"Euros: {euros}";
@@ -38,7 +31,7 @@ namespace Trabajo1.Formas
             }
             else
             {
-                    MessageBox.Show("Por favor, ingrese una cantidad válida de pesos mexicanos.");
+                MessageBox.Show("Por favor, ingrese una cantidad válida de pesos mexicanos.");
             }
         }
     }
